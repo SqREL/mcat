@@ -1,7 +1,7 @@
-- if @cats_list.size > 0
+- if @cats_list.any?
   %p
     Best price for your location
-    \- #{@cats_list.sort_by { |list| list[:price] }.first['price']}
+    \- #{@cats_list.sort_by { |list| list.price }.first.price}
   %table.table.table-striped
     %thead
       %tr
@@ -12,10 +12,10 @@
     %tbody
       - @cats_list.each do |cat|
         %tr
-          %td= cat['name']
-          %td= cat['price']
-          %td= cat['location']
-          %td= image_tag(cat['image'], width: '150px')
+          %td= cat.name
+          %td= cat.price
+          %td= cat.location
+          %td= image_tag(cat.image, width: '150px')
 - else
   %p
     Sorry, no cats for your location
