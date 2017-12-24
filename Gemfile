@@ -5,17 +5,19 @@ gem 'puma'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
-gem 'turbolinks', '~> 5'
 gem 'sqlite3'
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'rest-client'
+gem 'haml'
 
 group :development do
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'web-console', '>= 3.3.0'
+  gem 'better_errors'
+  gem 'binding_of_caller'
 end
 
-gem 'listen', '>= 3.0.5', '< 3.2'
 group :test do
   gem 'rspec-rails', '~> 3.6.0'
+  gem 'rails-controller-testing'
 end
