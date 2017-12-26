@@ -10,6 +10,7 @@ module CatsPrice
       end
 
       private
+
       attr_reader :data
     end
   end

@@ -6,7 +6,7 @@ module CatsPrice
       def fetch(url)
         response = RestClient.get(url)
         response.body
-      rescue RestClient::Exception, RestClient::ExceptionWithResponse => e
+      rescue RestClient::Exception, RestClient::ExceptionWithResponse
         # Notification like sentry or whatever here
         # Probably log
         raise Error::ShopApiError

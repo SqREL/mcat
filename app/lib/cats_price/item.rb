@@ -11,9 +11,9 @@ module CatsPrice
 
     def [](key)
       key = key.to_sym
-      return unless [:location, :breed, :price, :image].include?(key)
+      return unless %i[location breed price image].include?(key)
 
-      self.send(key)
+      send(key)
     end
   end
 end

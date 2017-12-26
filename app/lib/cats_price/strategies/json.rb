@@ -2,9 +2,10 @@ module CatsPrice
   module Strategies
     module Json
       module_function
+
       def parse(data)
         Oj.load(data, symbol_keys: true)
-      rescue
+      rescue StandardError
         # Notification like sentry or whatever here
         # Probably log
         raise Error::ResponseParserError

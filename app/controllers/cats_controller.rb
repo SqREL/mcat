@@ -2,8 +2,8 @@ class CatsController < ApplicationController
   def index
     @cats = CatsPrice.collection
     @filtered_cats = @cats
-      .filter(filter_params)
-      .sort_by(&:price)
+                     .filter(filter_params)
+                     .sort_by(&:price)
   end
 
   private
