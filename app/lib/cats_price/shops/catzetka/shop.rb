@@ -14,6 +14,7 @@ module CatsPrice
 
         def raw_data
            raw_data = strategy.parse(transport.fetch(url))
+           raise Error::ResponseParserError if raw_data.blank? || raw_data[:cats]&.fetch(:cat, nil).blank?
            raw_data[:cats][:cat]
         end
       end

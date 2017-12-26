@@ -1,0 +1,99 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://nh7b1g9g23.execute-api.us-west-2.amazonaws.com/dev/cats/json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin16.5.0 x86_64) ruby/2.4.0p0
+      Host:
+      - nh7b1g9g23.execute-api.us-west-2.amazonaws.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2018'
+      Connection:
+      - keep-alive
+      Date:
+      - Tue, 26 Dec 2017 13:25:52 GMT
+      X-Amzn-Requestid:
+      - 4ba94373-ea40-11e7-ae38-4f357930aa94
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Amzn-Trace-Id:
+      - sampled=0;root=1-5a424de0-157fa4ab93cc59f8fa696d9f
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 6b6a3e1d1793d42a5dd66cb14ecb12e4.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - _BQgjm6jdQHXwftEO4pSWGYJJx7MNuXRSrvoYMqB8iCG9IjI25YjoA==
+    body:
+      encoding: UTF-8
+      string: '[{"name":"Abyssin","price":500,"location":"Lviv","image":"https://olxua-ring02.akamaized.net/images_slandocomua/476948786_2_1000x700_abissenysh-chempion-fotografii.jpg"},{"name":"Abyssin","price":"550","location":"Lviv","image":"https://olxua-ring10.akamaized.net/images_slandocomua/342850976_3_1000x700_abidetki-koti_rev006.jpg"},{"name":"American
+        Curl","price":450,"location":"Odessa","image":"https://olxua-ring07.akamaized.net/images_slandocomua/113528769_3_1000x700_amerikanskie-kerly-koshki-s-chelovecheskim-litsom-koshka-kompanon-koti_rev022.jpg"},{"name":"Bengal","price":700,"location":"Kyiv","image":"https://olxua-ring10.akamaized.net/images_slandocomua/496811712_5_1000x700_bengalyata-kievskaya-oblast.jpg"},{"name":"Bobtail","price":349,"location":"Kyiv","image":"https://olxua-ring09.akamaized.net/images_slandocomua/313223928_1_1000x700_prodam-kotyat-kurilskogo-bobteyla-nikopol.jpg"},{"name":"British
+        Shorthair","price":350,"location":"Kyiv","image":"https://olxua-ring09.akamaized.net/images_slandocomua/502753684_1_1000x700_shotladskie-kotyata-kiev.jpg"},{"name":"Devon
+        Rex","price":100,"location":"Kharkiv","image":"https://olxua-ring02.akamaized.net/images_slandocomua/408892502_8_1000x700_malchiki-devon-reksa-drx-a-24-blue-tabby-_rev004.jpg"},{"name":"Maine
+        Coon","price":650,"location":"Lviv","image":"https://olxua-ring08.akamaized.net/images_slandocomua/273255938_8_1000x700_kotyata-meyn-kun-ot-chempiona-mira-iz-elitnogo-pitomnika-_rev032.jpg"},{"name":"Sphynx","price":230,"location":"Odessa","image":"https://olxua-ring11.akamaized.net/images_slandocomua/478774802_2_1000x700_predlagayu-malchikov-porody-donskih-sfinksov-fotografii.jpg"},{"name":"Persian","price":120,"location":"Odessa","image":"https://olxua-ring05.akamaized.net/images_slandocomua/501982388_1_1000x700_devochka-serebristaya-shinshila-harkov_rev002.jpg"},{"name":"Siamese","price":20,"location":"Kharkiv","image":"https://olxua-ring05.akamaized.net/images_slandocomua/500276292_1_1000x700_kot-po-imeni-tom-borispol.jpg"}]'
+    http_version: 
+  recorded_at: Tue, 26 Dec 2017 13:25:52 GMT
+- request:
+    method: get
+    uri: https://nh7b1g9g23.execute-api.us-west-2.amazonaws.com/dev/cats/xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin16.5.0 x86_64) ruby/2.4.0p0
+      Host:
+      - nh7b1g9g23.execute-api.us-west-2.amazonaws.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2171'
+      Connection:
+      - keep-alive
+      Date:
+      - Tue, 26 Dec 2017 13:25:53 GMT
+      X-Amzn-Requestid:
+      - 4bfe689f-ea40-11e7-89c8-572abd5c436f
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Amzn-Trace-Id:
+      - sampled=0;root=1-5a424de1-575f5e70588c7bb9e2ba8343
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 87e53d6d1b409d9ddfa1cf973907c0eb.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - uNmdDeo0RogUzBthnCwcWSTLFxse6vrHKdfjRD4qpOiZIMYqaWqLYA==
+    body:
+      encoding: UTF-8
+      string: <?xml version="1.0" encoding="UTF-8"?><cats><cat><name>American Curl</name><price>650</price><location>Odessa</location><image>https://olxua-ring07.akamaized.net/images_slandocomua/113528769_3_1000x700_amerikanskie-kerly-koshki-s-chelovecheskim-litsom-koshka-kompanon-koti_rev022.jpg</image></cat><cat><name>Bengal</name><price>800</price><location>Odessa</location><image>https://olxua-ring01.akamaized.net/images_slandocomua/351717184_8_1000x700_bengalskie-kotyata-_rev029.jpg</image></cat><cat><name>Bengal</name><price>600</price><location>Kyiv</location><image>https://olxua-ring10.akamaized.net/images_slandocomua/496811712_5_1000x700_bengalyata-kievskaya-oblast.jpg</image></cat><cat><name>Bobtail</name><price>369</price><location>Kyiv</location><image>https://olxua-ring09.akamaized.net/images_slandocomua/313223928_1_1000x700_prodam-kotyat-kurilskogo-bobteyla-nikopol.jpg</image></cat><cat><name>Devon
+        Rex</name><price>120</price><location>Kharkiv</location><image>https://olxua-ring02.akamaized.net/images_slandocomua/408892502_8_1000x700_malchiki-devon-reksa-drx-a-24-blue-tabby-_rev004.jpg</image></cat><cat><name>Grumpy</name><price>500</price><location>Lviv</location><image>https://images-production.global.ssl.fastly.net/uploads/posts/image/47360/grumpy-cat.jpg</image></cat><cat><name>Maine
+        Coon</name><price>650</price><location>Lviv</location><image>https://olxua-ring08.akamaized.net/images_slandocomua/273255938_8_1000x700_kotyata-meyn-kun-ot-chempiona-mira-iz-elitnogo-pitomnika-_rev032.jpg</image></cat><cat><name>Sphynx</name><price>250</price><location>Odessa</location><image>https://olxua-ring11.akamaized.net/images_slandocomua/478774802_2_1000x700_predlagayu-malchikov-porody-donskih-sfinksov-fotografii.jpg</image></cat><cat><name>Persian</name><price>100</price><location>Kharkiv</location><image>https://olxua-ring02.akamaized.net/images_slandocomua/499773040_3_1000x700_persidskiy-dlinnosherstnyy-malchik-radik-koshki.jpg</image></cat><cat><name>Siamese</name><price>40</price><location>Kharkiv</location><image>https://olxua-ring05.akamaized.net/images_slandocomua/500276292_1_1000x700_kot-po-imeni-tom-borispol.jpg</image></cat></cats>
+    http_version: 
+  recorded_at: Tue, 26 Dec 2017 13:25:53 GMT
+recorded_with: VCR 4.0.0

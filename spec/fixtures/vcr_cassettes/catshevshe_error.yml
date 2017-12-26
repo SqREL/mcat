@@ -1,0 +1,93 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://nh7b1g9g23.execute-api.us-west-2.amazonaws.com/dev/cats/jsonnodf
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin16.5.0 x86_64) ruby/2.4.0p0
+      Host:
+      - nh7b1g9g23.execute-api.us-west-2.amazonaws.com
+  response:
+    status:
+      code: 403
+      message: Forbidden
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '42'
+      Connection:
+      - keep-alive
+      Date:
+      - Tue, 26 Dec 2017 13:25:57 GMT
+      X-Amzn-Requestid:
+      - 4e75aa11-ea40-11e7-b3e8-d30afd414bb1
+      X-Amzn-Errortype:
+      - MissingAuthenticationTokenException
+      X-Cache:
+      - Error from cloudfront
+      Via:
+      - 1.1 79738a1b90ac4a5ffe3242b2ae485528.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - X73kwDDG5oslQMRIsrdN4rCLVQTRkNuowfUSSC639OdeNww4gXeHbQ==
+    body:
+      encoding: UTF-8
+      string: '{"message":"Missing Authentication Token"}'
+    http_version: 
+  recorded_at: Tue, 26 Dec 2017 13:25:57 GMT
+- request:
+    method: get
+    uri: https://nh7b1g9g23.execute-api.us-west-2.amazonaws.com/dev/cats/xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin16.5.0 x86_64) ruby/2.4.0p0
+      Host:
+      - nh7b1g9g23.execute-api.us-west-2.amazonaws.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2171'
+      Connection:
+      - keep-alive
+      Date:
+      - Tue, 26 Dec 2017 13:25:58 GMT
+      X-Amzn-Requestid:
+      - 4eeb0182-ea40-11e7-b3e8-d30afd414bb1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Amzn-Trace-Id:
+      - sampled=0;root=1-5a424de6-f2f674a904e98c0dfd27b28a
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 3d5c2dbcbc1ae2b3be90a840a7b38873.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - _2KqC3ge2_YiUGzuC4lEwZqZQHTxwiNCYYqCkJrI59Wer4gIuOSBZQ==
+    body:
+      encoding: UTF-8
+      string: <?xml version="1.0" encoding="UTF-8"?><cats><cat><name>American Curl</name><price>650</price><location>Odessa</location><image>https://olxua-ring07.akamaized.net/images_slandocomua/113528769_3_1000x700_amerikanskie-kerly-koshki-s-chelovecheskim-litsom-koshka-kompanon-koti_rev022.jpg</image></cat><cat><name>Bengal</name><price>800</price><location>Odessa</location><image>https://olxua-ring01.akamaized.net/images_slandocomua/351717184_8_1000x700_bengalskie-kotyata-_rev029.jpg</image></cat><cat><name>Bengal</name><price>600</price><location>Kyiv</location><image>https://olxua-ring10.akamaized.net/images_slandocomua/496811712_5_1000x700_bengalyata-kievskaya-oblast.jpg</image></cat><cat><name>Bobtail</name><price>369</price><location>Kyiv</location><image>https://olxua-ring09.akamaized.net/images_slandocomua/313223928_1_1000x700_prodam-kotyat-kurilskogo-bobteyla-nikopol.jpg</image></cat><cat><name>Devon
+        Rex</name><price>120</price><location>Kharkiv</location><image>https://olxua-ring02.akamaized.net/images_slandocomua/408892502_8_1000x700_malchiki-devon-reksa-drx-a-24-blue-tabby-_rev004.jpg</image></cat><cat><name>Grumpy</name><price>500</price><location>Lviv</location><image>https://images-production.global.ssl.fastly.net/uploads/posts/image/47360/grumpy-cat.jpg</image></cat><cat><name>Maine
+        Coon</name><price>650</price><location>Lviv</location><image>https://olxua-ring08.akamaized.net/images_slandocomua/273255938_8_1000x700_kotyata-meyn-kun-ot-chempiona-mira-iz-elitnogo-pitomnika-_rev032.jpg</image></cat><cat><name>Sphynx</name><price>250</price><location>Odessa</location><image>https://olxua-ring11.akamaized.net/images_slandocomua/478774802_2_1000x700_predlagayu-malchikov-porody-donskih-sfinksov-fotografii.jpg</image></cat><cat><name>Persian</name><price>100</price><location>Kharkiv</location><image>https://olxua-ring02.akamaized.net/images_slandocomua/499773040_3_1000x700_persidskiy-dlinnosherstnyy-malchik-radik-koshki.jpg</image></cat><cat><name>Siamese</name><price>40</price><location>Kharkiv</location><image>https://olxua-ring05.akamaized.net/images_slandocomua/500276292_1_1000x700_kot-po-imeni-tom-borispol.jpg</image></cat></cats>
+    http_version: 
+  recorded_at: Tue, 26 Dec 2017 13:25:58 GMT
+recorded_with: VCR 4.0.0

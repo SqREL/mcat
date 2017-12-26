@@ -1,0 +1,147 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://nh7b1g9g23.execute-api.us-west-2.amazonaws.com/dev/cats/json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin16.5.0 x86_64) ruby/2.4.0p0
+      Host:
+      - nh7b1g9g23.execute-api.us-west-2.amazonaws.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2018'
+      Connection:
+      - keep-alive
+      Date:
+      - Tue, 26 Dec 2017 13:25:54 GMT
+      X-Amzn-Requestid:
+      - 4c93a42c-ea40-11e7-9093-35bdde7703d3
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Amzn-Trace-Id:
+      - sampled=0;root=1-5a424de2-1f19ca5801b6235bafc8ffb7
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 6b6a3e1d1793d42a5dd66cb14ecb12e4.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - "-V2dOobCqkpMyrX5NaX5RcK3wZZrQJBlSIFr27cDUMjevc1J9idkNQ=="
+    body:
+      encoding: UTF-8
+      string: '[{"name":"Abyssin","price":500,"location":"Lviv","image":"https://olxua-ring02.akamaized.net/images_slandocomua/476948786_2_1000x700_abissenysh-chempion-fotografii.jpg"},{"name":"Abyssin","price":"550","location":"Lviv","image":"https://olxua-ring10.akamaized.net/images_slandocomua/342850976_3_1000x700_abidetki-koti_rev006.jpg"},{"name":"American
+        Curl","price":450,"location":"Odessa","image":"https://olxua-ring07.akamaized.net/images_slandocomua/113528769_3_1000x700_amerikanskie-kerly-koshki-s-chelovecheskim-litsom-koshka-kompanon-koti_rev022.jpg"},{"name":"Bengal","price":700,"location":"Kyiv","image":"https://olxua-ring10.akamaized.net/images_slandocomua/496811712_5_1000x700_bengalyata-kievskaya-oblast.jpg"},{"name":"Bobtail","price":349,"location":"Kyiv","image":"https://olxua-ring09.akamaized.net/images_slandocomua/313223928_1_1000x700_prodam-kotyat-kurilskogo-bobteyla-nikopol.jpg"},{"name":"British
+        Shorthair","price":350,"location":"Kyiv","image":"https://olxua-ring09.akamaized.net/images_slandocomua/502753684_1_1000x700_shotladskie-kotyata-kiev.jpg"},{"name":"Devon
+        Rex","price":100,"location":"Kharkiv","image":"https://olxua-ring02.akamaized.net/images_slandocomua/408892502_8_1000x700_malchiki-devon-reksa-drx-a-24-blue-tabby-_rev004.jpg"},{"name":"Maine
+        Coon","price":650,"location":"Lviv","image":"https://olxua-ring08.akamaized.net/images_slandocomua/273255938_8_1000x700_kotyata-meyn-kun-ot-chempiona-mira-iz-elitnogo-pitomnika-_rev032.jpg"},{"name":"Sphynx","price":230,"location":"Odessa","image":"https://olxua-ring11.akamaized.net/images_slandocomua/478774802_2_1000x700_predlagayu-malchikov-porody-donskih-sfinksov-fotografii.jpg"},{"name":"Persian","price":120,"location":"Odessa","image":"https://olxua-ring05.akamaized.net/images_slandocomua/501982388_1_1000x700_devochka-serebristaya-shinshila-harkov_rev002.jpg"},{"name":"Siamese","price":20,"location":"Kharkiv","image":"https://olxua-ring05.akamaized.net/images_slandocomua/500276292_1_1000x700_kot-po-imeni-tom-borispol.jpg"}]'
+    http_version: 
+  recorded_at: Tue, 26 Dec 2017 13:25:54 GMT
+- request:
+    method: get
+    uri: https://google.com/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin16.5.0 x86_64) ruby/2.4.0p0
+      Host:
+      - google.com
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=UTF-8
+      Referrer-Policy:
+      - no-referrer
+      Location:
+      - https://www.google.com.ua/?gfe_rd=cr&dcr=0&ei=4k1CWqyCHI2lX_nmlsgG
+      Content-Length:
+      - '271'
+      Date:
+      - Tue, 26 Dec 2017 13:25:54 GMT
+      Alt-Svc:
+      - hq=":443"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337;
+        quic=51303335,quic=":443"; ma=2592000; v="41,39,38,37,35"
+    body:
+      encoding: UTF-8
+      string: "<HTML><HEAD><meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<TITLE>302
+        Moved</TITLE></HEAD><BODY>\n<H1>302 Moved</H1>\nThe document has moved\n<A
+        HREF=\"https://www.google.com.ua/?gfe_rd=cr&amp;dcr=0&amp;ei=4k1CWqyCHI2lX_nmlsgG\">here</A>.\r\n</BODY></HTML>\r\n"
+    http_version: 
+  recorded_at: Tue, 26 Dec 2017 13:25:54 GMT
+- request:
+    method: get
+    uri: https://www.google.com.ua/?dcr=0&ei=4k1CWqyCHI2lX_nmlsgG&gfe_rd=cr
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin16.5.0 x86_64) ruby/2.4.0p0
+      Host:
+      - www.google.com.ua
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 26 Dec 2017 13:25:54 GMT
+      Expires:
+      - "-1"
+      Cache-Control:
+      - private, max-age=0
+      Content-Type:
+      - text/html; charset=windows-1251
+      P3p:
+      - CP="This is not a P3P policy! See g.co/p3phelp for more info."
+      Content-Encoding:
+      - gzip
+      Server:
+      - gws
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Set-Cookie:
+      - 1P_JAR=2017-12-26-13; expires=Thu, 25-Jan-2018 13:25:54 GMT; path=/; domain=.google.com.ua
+      - NID=120=Da-qbzrTUjQfVl5lLMx1MHKfc31MEs9W8MtNzsha9eZmXvTua7K484Kg2UKD7gksWmxmbXxGXS5_xMZk1rVdcNcXqUip5NY1XDQqQVOqulud1XRh-gvEsW8lD3NEfi1l;
+        expires=Wed, 27-Jun-2018 13:25:54 GMT; path=/; domain=.google.com.ua; HttpOnly
+      Alt-Svc:
+      - hq=":443"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337;
+        quic=51303335,quic=":443"; ma=2592000; v="41,39,38,37,35"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAC/806a2/cRpLf8ysoGh7NnEbD97woyqfYcuI81snahpM43kGT7OHQ4pAUydHDo/lT5x8Q3GGBAw7Zu8UtcJ8VI1orcaT4Aez5gAVyVd0khzOS4+A+nR+sflRXV1dVV1V3z8aKGznZYUyFUTYONjfwK/gZHadOFFNLFFkFESxxlGVxX5JSZ0THpBUlnnSf2p8Rj4pCQELPEic7IlCgxN3cGNOMCE4UZjTMLDGjB5mEpE3BGZEkpZl17+7N9a4oIM11ujvx9yzxOkdfvwuzicskJH8MM6WSnZDQ9UNP8qLIC6gnKQdFcZBm0EcSd+BEQZQMFLXrxq049Pgi4iSKLZGRAeqZnwV08wM2ckPitY3USfw426wPJ6GT+VFYb0z3/dCN9lt8Cmu6s32rv6rvKNfvR48+/5h8/H57687dXfuTz69/vtrc2f7iM+hWNENXO+0mwna3y2BPYXVDVToMtuUehx2DwU5PY7DLYVvpcKi12fh2W2bjOorRaWodWZbbKoMq9CM0lB6HqtLUZbXXVQyAmqLAPLqsy4rWQajpPRWh0dURT+9qOrZ3FVnrMai0dYA9o6fICGE+jUG9w+s9Vc0h4ve6HTYfwi6HBvQrsqIrGkJV1boIYRoDoa4arG6oOL8it+Uua+9pIB+EehfoKoqGcgIIy2H1NjDOYEfVOdQUBntqm0MN6SidXldG2IUCQFUGwSFUDIXVla6MeKpqKDhe1do6q2tdTebQYBCWwvr1vG50UX6K2lZljcGOgXyoHbXN6h2d0+/onB7Ii7dDA4Ndjtc1um0G22wdak+W2Tw9Q5U5NFh/r60hviZrbZVBg61DA446DILiEKrAGoM9Nk4DhbNxmq7wesdA+pohczxD7nYZNDqs3+D8aUaP0wMz0zjssXk7Ro/N12nrDL/XQz0ruixrKoMKk4cudxg+rkxhEBaGUJU7rK5qfJyqq7xd5/iqwceDIHsM8nUBZOvUtXweDSTIYY+3G0zvutY2DAa7TF661pMZPvzh0GD603WuL92Q210OuxzqbYVDZoe60VEZfdA3o99WOB9theO1VaYHHcyG0Yftzeod2FoMaj1Gp9OTdQ71brNtgGHh/pVV2LhdjRUU1BgWVNgLeQF0rRhduQPSbiptRIZVoihlFd0IFkCSRaHDCkqv12MFVe12igJHBuvmw1VYHi8gu1jQwHKKglYUjKLQLgrdotDLC1o+XJc7RaFbFHKcnsJbQHe8BZSgF4W8xVDaRaFTFLpFocBR5aKg5AWtLKh5wShwevkUbVkrCvkUbSVHbutFVzGqbXRXm2SSjSYpTfpycyd10v6q03NgDUN58DY3P5njgM//4JP+6r2t1ZnJQ0Rr58NPrNXJzqo5a9QbZjWU5AiBYz14WGAHviUXZY9m27escgBpTIdRUt8jiWCbpFarrxBE2cqyxLcnGT06Wqnb1mJbXaS+KzYaDbNBoCsmCQTP30UuNROaTZJQsI+OCj63b80qM3/ytqmtcBIEv33+4F0MlJNi6E+tinw4Bksz0r5oWXnoDSKHIEYLAngWQWgvKYyDi8MFZLfE2K9gkKbdmGbJ4bQcXd9OElgmaTRXFOicwTzOqO42prOSQOaP6cVJ6iHdF26QjDZw9XcBp94ohwSRtzBp0206Ta8x9Yd1Ys1x7iVBpbcxBUED0VuYnpgoeFriOs1hWfZN+mD40LJNuxWFFNm3sBRExGUFYkdJVmXYpQHNqICjSg73aFCrzcutYLJUBZHABGniWKRiqMM1ZVZdJazg0oVy7kWxwnZ6dCSKpnt0tK6sAJ8pJQlIWqxR3xIbR0d1QGfltepWqDuN5rpiVfEDNgBs0bEWTBdQsZWuWTnOGjSYDjBhrrjl4px05ENtiSZrLaiW1bXqmIZJLGBelMS1ugfQo+FAlXWxsSZeI5AcW37NgRx1jazBeIKj7TW6NoTa44M5qYzZyZpjSn/gqbTfymiagbBLDpnt15GVZSMVicjMdApa6ZOmF4zHfWXWaBJYY6PYXGQGXqflkCCoZyM/vdT9HFrTUokHS7sDTbSB6gPFt3zXpEFKp24E1U9JNmph6h2Nwavtj/yAFiwePnAeNmaVivUAiD3MeVpR5iYzrji+GGpVf1PitOJJOmqROA4O62Vjk1T2127Vf6LhLxihM6e1y2jVHzwgD7HjYXWPEncrWHYOy+NwGY1lkeZIQxQjioos+6kmOsVRQoctaKcHt4d18QqoCGQrb1g23x5OgZJO7BR8Z+jV7TWlYUr1PxzVGruWxC3DaXBrdRZI1WqkldA4IA74W4nb8TWw+LKRUxnG1oM/1B7+g+Q1RbRUZpkjERa0IeUHnY00O4RzzxXPJknziodhEBw/HMFS/zHtK1p8YMbExePWehbFfSU+EFb8cQwuhoSZOWPjpiPqe6Osr6rxwSynUQyyoyyLxv3O4jg8Da6TwPfCfoJDZy3PHjXh407Be7k0KSdLo8B3hStOz+0MFbPCGUyFg4q5ZTOOUh+F3yc2DIJIZCINVYcV7PtuNuorsnx19o9j6vpEAGVOYbhSZd0ck8Tzw3XGUb9l0LG5R5PMB83nvALBfMVDMJ+sH9BhNpsRJNTErz5lC3OpEyXMEPoTUFoS+CGtrH5hADun9q/IslPFgC5fqPa7bpeqnSWU4QIKpDPV/vdAxUy1uYbtyD1sZm6TNONma8R1PCRjPzjsk8QnQTMlYboOqvOHM8SdcmmAYCOQAqx3f/2wD0YTQWy94kVeoeE+mIjQhf/yLHOnuNT1XKatLh0Dm8QZjIWlLgXsYQb5xTifpTATVUa1joolaW1n1tqtyGjWylKkVcwtY0NhMoAWkDil/aIwo2O+zn0+qx0Fbm5CKJJ+CAyQYAaxKSvtwCjNRe+1mY2lQ7/JUHBkX8GlXhAYYqU5QudSBDedun4Km/Ow74dMFHZ0YC43gQPZyc2QyVUW9LldorX1oT7zw3iSLWjQD0cwTdWyVPbVFq1MURasjKnZJs6Ol0RgqP0rw+HQ5Kg2eJGdGakMNJdNO4TsY0b6IzSPJukT8KJ79O0bYNYaBgKpapb093zYstQtGg1DIV37t+0nhqXx2S9gMdaueHgPJTBh5Hj5PLDMhZ2U2oEzrXo5AxWPrcBwoaIF3aiomwW9ME9ZcU/MPwWpbS8ImFJqcmvtc8cGaObcfJE5x3GEK3Ciyz9QNXPb1OSS5gJTINksaF4ZBkGF3cssShYUNSdR5WoCaWhxtxaSvQHkdZGq9vDarAEWuK620RFDZKEkWy/YZTI2y50pm84kSaEcR36Y0aTKszn3JJMMuYIS3yrGJVvlMp+LHBcGVhUnCIft3v4wcibptCDP1A+5FhlN861swK6dzR1iHvrKGAijdgQMxpdcMsKRw504meQ7UXnLGERu3IIGEaQSWGI6AktyJpkATaEIdPkFKG4vwfaYjCwRrU689H4RswFMtFffooRVlmT4NIVDBYF0zHRhtWM4VLVwhjz1Fyzh4pVlKNRqQlGuYwIi1MvBfLLGtDxz1Bss34f/5uw9RF3BOeH8UIwY1mrzcmu3xaQOZMtGz96t4mC1gjZ7D/7iiXgueNffEzDVHoeeLW4KRR1D7OZGGNnwtQUnIGkKbcrmf5y/ef3jhmQDJpk355rjh0ZJ2t8v7mpbTjRuTQiI1RvF10aBNdmpZcSGbE3c/Nfz714c//Xk7OyXDYn8Kr0xhJIlgthUpReIm/92/OLV6btIIWuHYKUTm5GSrnmBdW+L01DEzS+jyV3oehcVUNgyQ+F+urhCMMM/nT89PXsnS2PiBxVirC5dYzTG4uYHWH0XCTeBfVmlwYdH4uYfT1/++FtkUhkLG5/iDT6n4aBgn5+cfX/84iIdtpv5y8Ky8xffbRNhFkiTHSmKcVAqwdacbP7zk+d/f3OyIU02hVpCdieRibNuSNwSJbDO0mRZlisw92JhYlmYaxqTkJtwWLLqo6uB9mrvsOwdXtJLyzZSWcmlC4ETSRYlh7gQsCxuA2JJXN/8p5evzl88+UV4evLd+s+4f14zSR6hLAufFwOgCQ0dml4k8Kfj58dvXr1+elzsFTY0A59OM2sA7pmzPOjIS0InjgNuOqvaqnSHJnu+Qz+JICDk9hrDRGBAVpZMaA0fe/xwQq23a+6qdtMb0kHiXtVuOMlVte3CV7shQ4n6UGB3druH1z+8pQZfDMJxkHofVNfzl6dPfuBb9aJiC6xRblwstMu/hsEPCwWKkGM6FIMgOC845wVwOrNEOHCIzNUFXuyKc88XeCSv5eZcpLYqy6kFSCsW+4sMWpHLTFXttDGNuDyiL72WYVyZP5hhbQBH+YwO5sPztzO1ox70VP581hDCaJ1nAKLAXsoskT+ciQIL07AQEBVf4ShGsqKQ30mJ5eE4qNXgU28sLijPITqdTjV/ahfpVDV3L494EHYJZgPsiNdBSTBNqZidi8DrfkJiSxQ3//Lji+Nvzo5zrVS/c73jMUQgLHJaxVkaaJAx8IYRGxxRQAWHBkGuGkuURVaHHerkdUBLhL1cFMAUNri5exBV46q4WQvtNAZ/krmsK0flhlJleYNl9/n8PsgXqMJ+yKWYriuqoYAO+HOs77o0LMfkmLh9+fBR8BZM3p1Gk8ShSygFlVG8hG37+79KzfZHF/rnO0Z0U3HJhLX5mRuPNYK8tBEuKPtxBEdEpZx20X4wBy0TzWITGcXZVEB7uphZlncbfBtrzHzIBO+YxzHemlpiBGlbsQZINQVMK0shlZuBZSZCsSXG5ACimMd0L+vdQh27IAEwbks0OriIscfSPlHCCMaWhJ4QX7AzCWbhz9bLwigvN5bybb4APL3ilsBT4+N1dmMEKbiMe9EJfGfHEi9PPC/hQFEgPA6Qj0cpz0BTq8zsnAQ8Ad0OKNbqqzydW22YaZlBzvNMvMjliO8f3nLrqwePUme1cXS0kMU28LoPAv/1kR+49bTBn07QuWQoZW4xIE1NLDcVynBxRxfCqt40oFGxuDo3w8UGPE+VJjVvK1W8qNnc1LPwg8LW04k99jOxDNjVWP5/nfPbk7Mnws/n/3P88tXpq79XZr1V0aQ/ZNeRLfRfkGWzoQ3W4oyos0NdSzEFvL4VwCLKq0lQthtFbgCRYfUdSyhcVc4gHN/xSLzk8EvHteDsyrRFIu4egbzCHeSXlDzmk3FsFq9uFqjoz+fP3py+ODk7/UH4mef4pEIDf1oygWAGyUYUpG8h8e35UxDak7OXr168/unkrIjwuAYpQ2fP/HghdIxTnr1XiJYVL3WD6G4kFPE8ZOONVoqJilhNDHLbm4ewrnbVHPthYYgaXiiKPPAUlOA0J5Y3sFCp3LymY8gYzKXbMbz8uTKg2/TyY37V7jF9MDmyQOb3ZZhPmLPWIHgbjfKqAJ0zywzWMczhoRoVDUM/+y1D54ftYq3ICdPScb6Z+sJCcnt5spfSDJPT9Frqe5Y8uO8O/d99nr5/+zD7akCH8j3nM+/TOLw7NLqQ+TGbAOtIJqzEw5s1isY0BuvhbcT6ghX2YH/IZHTv4+19/9ahc+NDvT38cmt039/6KPr4w69u37vxUfS5+pX3/vWte+Lmi9cvX/54+gM/g1xMJorEHbQfYTh/i0VAypYt9uUiU3p4EQJhp3oxXqQGjC5kj7/hLFAcaoiLB5o/n/z4/Pin44W99M6hKU/Q2fgnb/B8LHz//BfhuyfPzk5evl7cl+V0Npw8WvjjLsi4Xp4IP784F4qfVS3N/atadiM4bobX8qJ17w5XGWh+MFBv6pNeb5LcHvz+fvzZ+PfD928OnDvhtn3TA83nUqKQ8OQ/6ELS3ANU9BQv55xt/FtJO7uoIDiExIemoMpKZ0OK5+6wSOrf9ROxluNGVvku0eQ5ujwzl0Nv+WzkhyFN7iNa015o+5DRwHejFXJ0tFK+HOU4RQRtwtqv37mjXIekBRJ0fCxyWPHTyKXXnBIvD8N9h4VcfNBsQSyBFja3aZd1Pu+M1Gp2rVYnK9Z8YS22nKMje6GRL3b+iAkHgLooNvGfxEniY+m1Wv5SCqlk/lQKSSN7Kl18+93ZvtVYenN7y8URJBOuuHQ0x0b/8qu2oig4dbvUWsrf78GGL2roLRmPyGmLDZOwjMeu/lggSUs58Cp7a2xllVZnpy5io9icejQE0fSRaYgGTXZcdCYQL5RZ9WZtMYni615Mmkhj1pTLV1g3eBTP3zbt5vx9FYZOgGGnXnlQBWzL+ZWHYxRGsvh0W09ypaB1zkmXUh0UVjo4OprOzKJyYzKOtw8cyq5dSpTl9nJq2phmoyTaF2iV17i+KsFc0kCCz87XB5oLtdYobtFwcO9O66sb0cFHtkyG4U7rtjTG/tQejGjTlQirbW15UpJh6ZHkIlAkVnvsjFMpSRnK9bs9Obr5OL19jypy8ulje0/z0xv796MbN+X7xFe3Vpv/H5goX6Nhckj4CvXHY8eaimxCsT8VIfyFYh9vWJqiUy2zvSn28UiWBHC8WodjX1N0RwWCO9rNynIKiNA7DIqWUZTi4AVnDgh+agMBtdsUH5GxCC5QfJRGYVyMGqdeikw5vg2UxH//71NMc0955nf+FHLAZ8c/n75CPg5huPjt+V+fnz49bwpPT4Wfjp+fCmfHwuunx8+e9AElcHYOEWcxY4b2MdL+4zmEwO/PIJBBU5TuILf/+eL47OXzJ69OXhz/7ckv0B7DDob2/zrJk0+Y53u8dDwXnglPj9+cfyN8PZFl7Xoex74Wizu3r0XWsY1Xa0/YNds3HFMivIMTR0b+BUnCIqEltX1kg58rnh0Lz8qb6J+wF28f+ounjllTDFH4XHzRXgLSg7Z4l+sDmIrdojcZAuKDhzhNDBOrOisleckBPEXGApiFATCLdoDI3o3Bzcn4o2174Gvpja1bj9d7W192JsR95OHkLp/vy5vXU8nD8vzXI3X8rVWz4ilmFx2Hkx2A63ivGAPHP3yWmNeACqBccPF54MZQhU8q+Nv0/wVHrL7vqy4AAA==
+    http_version: 
+  recorded_at: Tue, 26 Dec 2017 13:25:54 GMT
+recorded_with: VCR 4.0.0
