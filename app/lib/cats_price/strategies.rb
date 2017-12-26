@@ -4,7 +4,8 @@ module CatsPrice
 
     def strategy(key)
       {
-        json: Strategies::Json
+        json: Strategies::Json,
+        xml:  Strategies::Xml
       }.fetch(key.to_sym)
     end
   end

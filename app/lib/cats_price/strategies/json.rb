@@ -1,8 +1,9 @@
 module CatsPrice
   module Strategies
-    class Json
+    module Json
+      module_function
       def parse(data)
-        JSON.parse(data)
+        Oj.load(data, symbol_keys: true)
       end
     end
   end

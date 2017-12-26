@@ -4,7 +4,8 @@ module CatsPrice
 
     def list
       [
-        CatsPrice::Shops::MegaJson
+        CatsPrice::Shops::Catshevshe, # Deshevshe for cats
+        CatsPrice::Shops::Catzetka    # Rozetka for cats
       ]
     end
   end

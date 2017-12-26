@@ -1,12 +1,19 @@
 module CatsPrice
   class Item
     def initialize(attributes)
-      @location = String(attributes.fetch("location"))
-      @name = String(attributes.fetch("name"))
-      @price = Float(attributes.fetch("price"))
-      @image = String(attributes.fetch("image"))
+      @location = String(attributes.fetch(:location))
+      @breed    = String(attributes.fetch(:breed))
+      @image    = String(attributes.fetch(:image))
+      @price    = Float(attributes.fetch(:price))
     end
 
-    attr_reader :location, :name, :price, :image
+    attr_reader :location, :breed, :price, :image
+
+    def [](key)
+      key = key.to_sym
+      return unless [:location, :breed, :price, :image].include?(key)
+
+      self.send(key)
+    end
   end
 end

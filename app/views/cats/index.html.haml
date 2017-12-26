@@ -1,0 +1,35 @@
+.row
+  .col-md-2.col-md-offset-5
+    = form_tag(cats_path, method: 'get', class: 'form-horizontal center') do
+      %p
+        Select cat breed:
+        %br/
+        = select_tag('breed', options_for_select(@cats.breeds, params[:breed]), prompt: "Any")
+      %p
+        Select your location:
+        %br/
+        = select_tag('location', options_for_select(@cats.locations, params[:location]), prompt: "Any")
+      %div= submit_tag 'Send request', class: 'btn btn-default'
+%br/
+
+- if @filtered_cats.any?
+  %p
+    Best price for your location
+    \- #{@filtered_cats.first.price}
+  %table.table.table-striped
+    %thead
+      %tr
+        %th Breed
+        %th Price
+        %th Location
+        %th Image
+    %tbody
+      - @filtered_cats.each do |cat|
+        %tr
+          %td= cat.breed
+          %td= cat.price
+          %td= cat.location
+          %td= image_tag(cat.image, width: '150px')
+- else
+  %p
+    Sorry, no cats for your location
